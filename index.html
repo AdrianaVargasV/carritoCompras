@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- CSS -->
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <title>Adri's PRO Shop</title>
+</head>
+
+<body>
+    <header>
+        <h1>Adri's PRO Shop</h1>
+    </header>
+    <marquee behavior="alternate" scrollamount="5px">
+        <div class="envio" id="envio">
+            <h6>* Envío GRATIS a partir de &#36; 4,000.00 MXN *</h6>
+        </div>
+    </marquee>
+    
+    <div class="container">
+        <div class="row">
+            <main id="productos" class="col-sm-8 row"></main>
+            <!-- Carrito -->
+            <aside>
+                <h2>Tu Carrito de Compras</h2>
+                <hr size="5px" color="black">
+                <table class="table table-striped-columns">
+                    <thead>
+                        <th class="table-danger" scope="col">Cantidad</th>
+                        <th class="table-danger" scope="col">Producto</th>
+                        <th class="table-danger" scope="col">Precio</th>
+                    </thead>
+                </table>
+                <ul id="carrito" class="carrito"></ul>
+                <hr size="5px" color="black">
+                <p class="text-end">Total: &#36; <span id="total"></span> MXN</p>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button id="boton-vaciar" class="btn btn-outline-danger">Vaciar el carrito</button>
+                </div>
+                <div id="mensajeEnvio" class="mEnvio"></div>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <h2>Contacto</h2>
+        <h4>adrivv3.0@gmail.com</h4>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

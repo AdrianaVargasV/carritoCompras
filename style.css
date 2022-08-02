@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #3264f0, #717ef3, #9a9af6, #bcb7f9, #dad5fc, #e2d8fb, #e8dcfa, #eee0f9, #eac7ed, #ecacdb, #ef8fc1, #f070a1);
+}
+header {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    color: #17252A;
+    background-image: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+marquee {
+    display: flex;
+    height: 20px;
+    background-color: pink;
+}
+.envio h6{
+    color:red;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 150px;
+    padding: 20px; 
+}
+aside h2{
+    text-align: center;
+}
+
+.mEnvio {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    background-image: radial-gradient(circle, #270844, #361c6a, #413294, #424ac0, #3264f0);
+}

@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "nombre": "BENOTTO Sta. Mónica R26",
+        "precio": 5350,
+        "imagen": "src/imagenes/bike1.jpeg"
+    },
+    {
+        "id": 2,
+        "nombre": "BENOTTO City OCEAN R26",
+        "precio": 5600,
+        "imagen": "src/imagenes/bike2.jpeg"
+    },
+    {
+        "id": 3,
+        "nombre": "BENOTTO Rollie R20",
+        "precio": 3850,
+        "imagen": "src/imagenes/bike3.jpeg"
+    },
+    {
+        "id": 4,
+        "nombre": "Penny Casper Glow 27",
+        "precio": 2450,
+        "imagen": "src/imagenes/penny3.jpeg"
+    },
+    {
+        "id": 5,
+        "nombre": "Penny Blackout 27",
+        "precio": 2450,
+        "imagen": "src/imagenes/penny1.jpeg"
+    },
+    {
+        "id": 6,
+        "nombre": "Penny Fender 27",
+        "precio": 2450,
+        "imagen": "src/imagenes/penny2.jpeg"
+    },
+    {
+        "id": 7,
+        "nombre": "Patines K2 Alexis 85W",
+        "precio": 4790,
+        "imagen": "src/imagenes/patines3.jpeg"
+    },
+    {
+        "id": 8,
+        "nombre": "Patines Eagle Skates",
+        "precio": 3190,
+        "imagen": "src/imagenes/patines1.jpeg"
+    },
+    {
+        "id": 9,
+        "nombre": "Patines Quad Roller",
+        "precio": 42890,
+        "imagen": "src/imagenes/patines2.jpeg"
+    },
+    {
+        "id": 10,
+        "nombre": "Skateboard Gatito de la Suerte",
+        "precio": 999,
+        "imagen": "src/imagenes/skate2.jpeg"
+    },
+    {
+        "id": 11,
+        "nombre": "Skateboard SPACE",
+        "precio": 999,
+        "imagen": "src/imagenes/skate3.jpeg"
+    }
+    
+]
