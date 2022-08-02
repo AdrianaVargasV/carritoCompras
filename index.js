@@ -164,6 +164,8 @@ const obtenerProductos = async () => {
             }
         });
     });
+    cargarCarritoGuardado();
+    actualizarCarrito();
 };
 // inicializamos las funciones
 obtenerProductos();
